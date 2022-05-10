@@ -58,12 +58,18 @@ ul li a:hover{
     margin-top: 101px;
 }
 
+.heading{
+    margin: 0px 151px;
+}
 
 /* About */
 .self{
     background-color: rgb(226, 193, 178);
-    height: 85px;
+    /* background-image: linear-gradient(red, yellow); */
+    /* height: 85px; */
     padding: 25px;
+    border-radius: 6px;
+    margin: 0px 151px;
 }
 
 .text{
@@ -75,8 +81,9 @@ ul li a:hover{
 }
 
 
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -87,4 +94,46 @@ ul li a:hover{
 h1{
     font-size: 2.3rem;
 }
+
+.self1{
+    background-color: rgb(226, 193, 178);
+    /* background-image: linear-gradient(red, yellow); */
+    /* height: 85px; */
+    padding: 25px;
+    margin: 0px 151px;
+    border-radius: 6px;
+    display: flex;
+}
+
+
+.text2{
+    background-color: rgb(189, 29, 29);
+    margin: 10px 21px 0px 150px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    height: 401px;
+    padding: 5px;
+}
+
+.training{
+    /* height: 155px; */
+    width: 555px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#trainingcolor{
+    color: rgb(110, 19, 133);
+}
+
+#institute{
+    margin-left: 421px;
+}
+
+.exp_section{
+    padding: 15px;
+}
+
 
