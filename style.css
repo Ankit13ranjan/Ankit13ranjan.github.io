@@ -22,7 +22,8 @@ li{
 ul li a:hover{
     background-color: white;
     color: black;
-    border-radius: 11px;
+    border-radius: 8px;
+    padding: 6px;
 }
 
 /* bars */
@@ -77,7 +78,7 @@ ul li a:hover{
     margin: 10px 150px;
     border-radius: 6px;
     font-size: 1.1rem;
-    padding: 5px;
+    padding: 11px;
 }
 
 
@@ -126,6 +127,10 @@ h1{
 
 #trainingcolor{
     color: rgb(110, 19, 133);
+}
+
+#subtrainingcolor{
+    color: rgb(30, 97, 197);
 }
 
 #institute{
