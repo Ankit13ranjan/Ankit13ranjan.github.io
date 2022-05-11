@@ -6,7 +6,7 @@
 /* Nav Bar List */
 ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(7, 6, 8);
 }
 ul li{
     list-style: none;
@@ -21,7 +21,7 @@ li{
 
 ul li a:hover{
     background-color: white;
-    color: black;
+    color: rgb(218, 105, 105);
     border-radius: 8px;
     padding: 6px;
 }
@@ -31,7 +31,20 @@ ul li a:hover{
 .bars{
     height: 75px;
     color: white;
+    /* overflow: hidden;   */
+    /* position: fixed; */
+    /* background-color: black; */
+}
+.bars::before{
+    content: "";
     background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 10.4;
 }
 
 
@@ -56,11 +69,12 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 101px;
+    margin-top: 45px;
 }
 
 .heading{
     margin: 0px 151px;
+    color: orangered;
 }
 
 /* About */
@@ -142,3 +156,70 @@ h1{
 }
 
 
+
+.formarea{
+    background-color: rgb(69, 111, 226);
+    /* height: 500px; */
+    /* padding: 15px; */
+    display: flex;
+    justify-content: center;
+    gap: 301px;
+    
+}
+
+.contactcolor{
+    color: rgb(233, 236, 56);
+    /* padding: 25px; */
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.form{
+    margin-left: 51px;
+    padding: 25px;
+    
+}
+
+.contactbox{
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+}
+
+
+.basicdetails{
+    color: rgb(131, 230, 74);
+    margin: 11px;
+}
+
+#submitbutton{
+    background-color: rgb(190, 115, 252);
+    padding: 8px;
+    margin-left: 101px;
+    margin-top: 15px;
+    border: 2px solid rgb(245, 202, 63);
+    border-radius: 8px;
+    color: rgb(233, 248, 28);
+    font-size: 0.9rem;
+}
+
+.details{
+    padding: 25px;
+    /* margin-left: 15px; */
+}
+
+.detail_self{
+    padding: 11px;
+    color: rgb(142, 255, 127);
+}
+
+
+#links{
+    display: flex;
+    /* background-color: blue; */
+    margin: 6px;
+    justify-content: flex-start;
+}
+
+.linkplatform{
+    margin: 6px;
+}
