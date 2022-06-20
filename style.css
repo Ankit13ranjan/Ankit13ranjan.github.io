@@ -54,7 +54,7 @@ ul li a:hover{
 }
 #home::before{
     content: "";
-    background: url(/img.jpg) no-repeat center center/cover;
+    background: url(/image/img.jpg) no-repeat center center/cover;
     position: absolute;
     height: 601px;
     width: 100%;
@@ -97,12 +97,18 @@ ul li a:hover{
 
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 
 
 
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* Fixed */
@@ -223,3 +229,128 @@ h1{
 .linkplatform{
     margin: 6px;
 }
+
+
+
+.skill-progress {
+    display: inline-block;
+    width: 6rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 11px;
+    overflow: hidden;
+    /* text-align: center */
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.typeone{
+    display: inline-block;
+    margin-right: 85px;
+}
+
+/* Color-Box */
+
+.redcolor{
+    background-color: red;
+}
+.redishcolor{
+    background-color: rgb(235, 21, 153);
+}
+.purplecolor{
+    background-color: purple;
+}
+.navycolor{
+    background-color: aqua;
+}
+.bluecolor{
+    background-color: blue;
+}
+.greencolor{
+    background-color: rgb(51, 255, 0);
+}
+.greenishcolor{
+    background-color: rgb(29, 209, 89);
+}
+.brownishcolor{
+    background-color: rgb(255, 166, 0);
+}
+
+.orangecolor{
+    background-color: orange;
+}
+
+.mangocolor{
+    background-color: rgb(238, 255, 0);
+}
+
+.purpleycolor{
+    background-color: rgb(174, 0, 255);
+}
+
+
+
+.voiletcolor{
+    background-color: rgb(111, 0, 255);
+}
+
+.purpleishcolor{
+    background-color: rgb(0, 68, 255);
+}
+
+.browncolor{
+    background-color: rgb(85, 59, 3);
+}
+
+.orangeishcolor{
+    background-color: #ffae00;
+}
+
+
+
+
+/* Height-Area */
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-five-percent {
+    height: inherit;
+    width: 55%;
+}
+
+
+.sixty-five-percent {
+    height: inherit;
+    width: 65%;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+.ninety-percent {
+    height: inherit;
+    width: 90%;
+}
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+
+
+
+/* .font{
+    display: flex;
+
+} */

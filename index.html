@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="bars">
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut natus.</p> -->
-                <ul>
+                <ul class="nav-menu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -26,13 +27,13 @@
             </div>
             <div id="links">
                 <div class="linkplatform">
-                    <a href="https://github.com/Ankit13ranjan"><img src="/github.jpeg" width="43px"></a>
+                    <a href="https://github.com/Ankit13ranjan"><img src="/image/github.jpeg" width="43px"></a>
                 </div>
                 <div class="linkplatform">
-                    <a href="https://www.linkedin.com/in/ankit-ranjan-685775193/"><img src="/linkedin.jpeg" width="43px"></a>
+                    <a href="https://www.linkedin.com/in/ankit-ranjan-685775193/"><img src="/image/linkedin.jpeg" width="43px"></a>
                 </div>
                 <div class="linkplatform">
-                    <a href="https://www.instagram.com/ankit__13_/?hl=en"><img src="/igimage.jpeg" width="43px"></a>
+                    <a href="https://www.instagram.com/ankit__13_/?hl=en"><img src="/image/igimage.jpeg" width="43px"></a>
                 </div>
                 
 
@@ -42,7 +43,7 @@
     <main>
         <section id="home">
             <div id="logo">
-                <img src="/logo.jpeg" alt="Image" width="413px">
+                <img src="/image/logo.jpeg" alt="Image" width="413px">
             </div>
         </section>
         <section id="about">
@@ -58,22 +59,160 @@
             <h1 class="heading">Skills:</h1>
             <div class="self">
                 <div class="text">
-                    <p class="font"><b>Language:</b> &nbsp; C , &nbsp; C++ , &nbsp; JAVA  </p>
+                    <p class="font"><b>Language:</b> &nbsp; 
+                        <div class="skill-progress">
+                            <div class="eighty-percent redcolor" data-bar-width="80">
+                                <div class="skill-name " >
+                                    <span>C</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="ninety-percent bluecolor" data-bar-width="90">
+                                <div class="skill-name " >
+                                    <span>C++</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="seventy-five-percent orangecolor" data-bar-width="75">
+                                <div class="skill-name " >
+                                    <span>JAVA</span>
+                                </div>
+                            </div>
+                        </div>
+                      </p>
                 </div>
                 <div class="text">
-                    <p class="font"><b>Android Development:</b> &nbsp; Kotlin , &nbsp; XML , &nbsp; Android</p>
+                    <p class="font"><b>Android Development:</b>
+                        <div class="skill-progress">
+                            <div class="sixty-five-percent purplecolor" data-bar-width="65">
+                                <div class="skill-name " >
+                                    <span>Kotlin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="eighty-five-percent navycolor" data-bar-width="85">
+                                <div class="skill-name " >
+                                    <span>XML</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="seventy-five-percent greencolor" data-bar-width="75">
+                                <div class="skill-name " >
+                                    <span>Android</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
                 </div>
                 <div class="text">
-                    <p class="font"><b>Web Development:</b> &nbsp; HTML , &nbsp; CSS , &nbsp; JavaScript , &nbsp; Bootstrap</p>
+                    <p class="font"><b>Web Development:</b> 
+                        <div class="skill-progress">
+                            <div class="ninety-percent redishcolor" data-bar-width="90">
+                                <div class="skill-name " >
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="eighty-five-percent greenishcolor" data-bar-width="85">
+                                <div class="skill-name " >
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="fifty-five-percent brownishcolor" data-bar-width="55">
+                                <div class="skill-name " >
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="seventy-five-percent purplecolor" data-bar-width="75">
+                                <div class="skill-name " >
+                                    <span>Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
                 </div>
                 <div class="text">
-                    <p class="font"><b>Database:</b> &nbsp; SQL , &nbsp; My-SQL , &nbsp; Firebase , &nbsp; Big Data</p>
+                    <p class="font"><b>Database:</b>
+                        <div class="skill-progress">
+                            <div class="seventy-five-percent redcolor" data-bar-width="75">
+                                <div class="skill-name " >
+                                    <span>SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="sixty-five-percent orangeishcolor" data-bar-width="95">
+                                <div class="skill-name " >
+                                    <span>My-Sql</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="eighty-five-percent redishcolor" data-bar-width="85">
+                                <div class="skill-name " >
+                                    <span>Big Data</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="fifty-five-percent voiletcolor" data-bar-width="55">
+                                <div class="skill-name " >
+                                    <span>Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
                 </div>
                 <div class="text">
-                    <p class="font"><b>Operating System:</b> &nbsp; Windows , &nbsp; Ubuntu</p>
+                    <p class="font"><b>Operating System:</b> 
+                        <div class="skill-progress">
+                            <div class="ninety-percent purpleishcolor" data-bar-width="90">
+                                <div class="skill-name " >
+                                    <span>Windows</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="eighty-percent browncolor" data-bar-width="80">
+                                <div class="skill-name " >
+                                    <span>Ubuntu</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
                 </div>
                 <div class="text">
-                    <p class="font"><b>Data Structure & Algorithm</b> ,&nbsp; <b>Problem Solving</b> </p>
+                    <div class="typeone">
+                    <p class="font"><b>Data Structure & Algorithm</b>
+                        <div class="skill-progress">
+                            <div class="eighty-five-percent mangocolor" data-bar-width="85">
+                                <div class="skill-name " >
+                                    <span>DSA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                    </div>
+                    <div class="typeone">
+                    <p class="font"><b>Problem Solving</b>
+                        <div class="skill-progress">
+                            <div class="eighty-five-percent purpleycolor" data-bar-width="85">
+                                <div class="skill-name " >
+                                    <span>PS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -103,7 +242,7 @@
                         <h2 id="trainingcolor">Chapter Lead</h2>
                         <h4 id="institute">~ CodeChef</h4>
                         <h4>Event-Lead</h4>
-                        <p>08/2021 - present</p><br>
+                        <p>08/2021 - 01/2022</p><br>
                         <p>Have Experience of Hosting More than 10 Coding Contest.</p>
                     </div>
                 </div>
@@ -115,28 +254,89 @@
             <h1 class="heading">Achievments</h1>
             <div class="self">
                 <div class="text">
-                    <p><b>*</b> &nbsp; <b>Codekaze - Global Coding Competition</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rank 1 in College.</p>
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>Codekaze - Global Coding Competition</b>
+                        </div>
+                        <div> <a href="https://drive.google.com/drive/folders/1eSQEM4sVcKUtRDrleXg8kpZ-Z6ng8zix"><img src="/image/Coding_Ninjas_logo.jpeg" width="43px"></a>
+                        </div>
+
+                    </div>
+
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rank 1 in College.</div>
+
                 </div>
                 <div class="text">
-                    <p><b>*</b> &nbsp; <b>Techgig - Coding Competition</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIR - 317 from 10,000+ open coding Round Contest.</p>
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>Techgig - Coding Competition</b>
+                        </div>
+                        <div> <a href="https://drive.google.com/drive/folders/1bA0EZ821jNtLzcu_yt7jIGt3O5b-b_Hz"><img src="/image/techgig.jpg" width="43px"></a>
+                        </div>
+
+                    </div>
+
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIR - 317 from 10,000+ open coding Round Contest.</div>
+
+                    
                 </div>
                 <div class="text">
-                    <p><b>*</b> &nbsp; <b>HackerRank</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<sup>*</sup> - Problem Solving , 5<sup>*</sup> - Cpp 650+ Points , 1700+ Points.</p>
+
+
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>HackerRank</b>
+                        </div>
+                        <div> <a href="https://www.hackerrank.com/ANKIT_RANJAN_13"><img src="/image/HackerRank_logo.png"width="43px"></a>
+                        </div>
+
+                    </div>
+
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<sup>*</sup> - Problem Solving , 5<sup>*</sup> - Cpp 650+ Points , 1700+ Points.</div>
+
+
+
                 </div>
                 <div class="text">
-                    <p><b>*</b> &nbsp; <b>Codechef</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3<sup>*</sup> - 1600+ Points</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8<sup>th</sup> - AIR in CODE Gun Contest</p>
+                
+
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>Codechef</b>
+                        </div>
+                        <div> <a href="https://www.codechef.com/users/ankit1331"><img src="/image/codechef_logo.png"width="43px"></a>
+                        </div>
+
+                    </div>
+
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3<sup>*</sup> - 1600+ Points</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8<sup>th</sup> - Global Rank in CODE Gun Contest</div>
+
                     <br>
-                    <p><b>*</b> &nbsp; <b>CodeForces</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;949(Highest Rating)</p>
+
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>CodeForces</b>
+                        </div>
+                        <div> <a href="https://codeforces.com/profile/ankit1331"><img src="/image/codeforces.jpg"width="43px"></a>
+                        </div>
+
+                    </div>
+
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;949(Highest Rating)</div>
                 </div>
                 <div class="text">
-                    <p><b>*</b> &nbsp; <b>GeeksForGeeks</b></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500+ Points in DSA.</p>
+                    <div class="space">
+                        <div>
+                        <b>* &nbsp;&nbsp;&nbsp;</b><b>GeeksForGeeks</b>
+                        </div>
+                        <div> <a href="https://auth.geeksforgeeks.org/user/ranjanankit/practice/"><img src="/image/gfg-logo.png"width="43px"></a>
+                        </div>
+
+                    </div>
+
+
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500+ Points in DSA.</div>
                 </div>
                 <div class="text">
                     <p><b>*</b> &nbsp; <b>500+</b>&nbsp; Question Solved on Different Websites.</p>
@@ -203,13 +403,13 @@
                 <p class="detail_self">E-mail : ranjanankit1313@gmail.com</p>
                 <div id="links">
                     <div class="linkplatform">
-                        <a href="https://github.com/Ankit13ranjan"><img src="/github.jpeg" width="43px"></a>
+                        <a href="https://github.com/Ankit13ranjan"><img src="/image/github.jpeg" width="43px"></a>
                     </div>
                     <div class="linkplatform">
-                        <a href="https://www.linkedin.com/in/ankit-ranjan-685775193/"><img src="/linkedin.jpeg" width="43px"></a>
+                        <a href="https://www.linkedin.com/in/ankit-ranjan-685775193/"><img src="/image/linkedin.jpeg" width="43px"></a>
                     </div>
                     <div class="linkplatform">
-                        <a href="https://www.instagram.com/ankit__13_/?hl=en"><img src="/igimage.jpeg" width="43px"></a>
+                        <a href="https://www.instagram.com/ankit__13_/?hl=en"><img src="/image/igimage.jpeg" width="43px"></a>
                     </div>
                     
 
